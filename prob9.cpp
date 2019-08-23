@@ -14,12 +14,15 @@ int main()
       {flag=1;
        break;
       }
-    }if(flag==1) break;
-	}if(flag==1) break;
-	}
+    }
     if(flag==1)
- cout<<a<<","<<b<<" and "<<c<<" are the pythagorean triplet which adds up to 1000 and there product is:"<<(a*b*c);
+	    break;
+    }
+     if(flag==1) break;
+    }
+    if(flag==1)
+ cout<<(a*b*c);
  else
   cout<<"NO pythagorean triplet";
  return 0;
-}
+}//31875000
