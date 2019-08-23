@@ -22,6 +22,6 @@ int main()
    }
   flag=0;;//Skipping the even numbers
  }
- cout<<"The 10001st Prime number is="<<i;
+ cout<<i;
  return 0;
-}
+}//i=104743
