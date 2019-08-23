@@ -14,9 +14,9 @@ int main()
    sum=sum+c;
   }
   sum=sum+2;
-  cout<<"Sum of even fibbonacci numbers upto "<<n<<" = "<<sum;
+  cout<<sum;
  return 0;
-} 
+} //sum=4613732
   
  
   
