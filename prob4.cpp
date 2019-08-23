@@ -2,40 +2,35 @@
 using namespace std;
 int main()
 {
- int pp,i,j,temp,a,s=0,flag=0;
- for(i=100;i<=999;++i)
+ int pp=0,i,j,temp,a=0,s=0,flag=0,p,q;
+ for(i=999;i>=100;--i)
  {
-   for(j=i;j<=999;++j)
+   for(j=i;j>=100;--j)
    {
-    a=i*j;
-    temp=a;
+    temp=a=i*j;
     while(temp!=0)
      {
       s=s*10+(temp%10);
       temp=temp/10;
      }
-    if(a==s && flag==0)
+    
+     if(a==s && a>pp)
      {
-      pp=a;flag=1;
+      pp=a;p=i,q=j;
      }
-    else if(a==s && a>pp)
-     {
-      pp=a;
-     }
-	s=0;
+    s=0;
    }
   }
- if(!flag)
+ if(flag)
  {
-  cout<<"\n No pallindromic product in the given range\n";
+  cout<<"\n No pallindromic product int the given range";
  }
  else
  {
-  cout<<"\nThe largest pallindromic product in the 3 range digits="<<pp;
+  cout<<"\nThe largest pallindrimic product int the 3 digits="<<pp<<" "<<p<<"*"<<q;
  }
  return 0;
 
 }
     
  
-
