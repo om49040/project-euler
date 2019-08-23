@@ -23,9 +23,9 @@ int main()
   flag=0;i+=2;//Skipping the even numbers
  }
  sum+=5;
- cout<<"The sum of Prime numbers are="<<sum;
+ cout<<sum;
  return 0;
-}
+}//sum=142913828922
 
 
 
