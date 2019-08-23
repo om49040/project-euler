@@ -27,10 +27,10 @@ int main()
  }
  else
  {
-  cout<<"\nThe largest pallindrimic product int the 3 digits="<<pp<<" "<<p<<"*"<<q;
+  cout<<pp;
  }
  return 0;
 
-}
+}//pp=906609
     
  
