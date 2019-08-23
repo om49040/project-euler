@@ -26,7 +26,7 @@ int main()
 	  
   }
  }
- cout<<"The largest prime number is:"<<i;
+ cout<<i;
  return 0;
-}
+}//i=6857
   
