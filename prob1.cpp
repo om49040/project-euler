@@ -17,6 +17,6 @@ int main()
 		sum=sum+i+j;
 		}
 		cout<<sum;
-	 }
+	 }//sum=233168
 
  
