@@ -26,8 +26,8 @@ int main()
    ++i;
    temp=1;
  }
- cout<<"There are "<<cnt<<" number of square root smooth numbers in the range";
+ cout<<cnt;
  return 0;
-}
+}//cnt=2811077773
 
    
