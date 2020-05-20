@@ -3,26 +3,21 @@
 using namespace std;
 int main()
 {
- long int a,b,c,flag=0;
- for(a=1;a<1000;++a)
-  {
-  for(b=1;b<1000;++b)
-   {
-   for(c=1;c<1000;++c)
-    {
-     if((a*a+b*b==c*c) && (a+b+c==1000))
-      {flag=1;
-       break;
-      }
-    }
-    if(flag==1)
-	    break;
-    }
-     if(flag==1) break;
-    }
-    if(flag==1)
- cout<<(a*b*c);
- else
-  cout<<"NO pythagorean triplet";
- return 0;
+ for(a=999;a>0;--a)//made it 2 loops and went in reverse order
+		  {
+		  for(b=999;b>0;--b)
+		  {
+			  c=1000-a-b;
+			  if(c*c==(a*a+b*b))
+			  {
+				  flag=1;break;
+			  }
+			 
+		  }
+		  if(flag==1)
+			  break;
+
+	}
+		 cout<<(a*b*c);
+	return 0;
 }//31875000
